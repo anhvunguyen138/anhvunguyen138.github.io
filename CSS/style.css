@@ -1,0 +1,378 @@
+/* CSS Document */
+body{
+	font-family: sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear{
+	clear: both;
+}
+.wrapper{
+	width: 100%;
+	background: black;
+}
+header{
+	width: 100%;
+	height: 150px;
+	background: black;
+	padding: 0 25px;
+	position: fixed;
+	z-index: 1;
+}
+header nav{
+	width: 100%;
+	height: 115px;
+	background: black;
+}
+nav .top-bar{
+	width: 100%;
+	height: 70px;
+	background: black;
+}
+nav .top-bar .contact{
+	width: 40%;
+	height: 70px;
+	float: left;
+}
+.contact ul{
+	list-style: none;
+}
+.contact ul li{
+	float: left;
+	line-height: 70px;
+}
+.contact ul li a{
+	text-decoration: none;
+	font-size: 11px;
+	color: white;
+	margin-left: 14px;
+}
+.vitri{
+	color: white;
+	font-size: 0.8em;
+	margin-left: 10px;
+}
+.dienthoai{
+	color: white;
+	font-size: 0.8em;
+	margin-left: 10px;
+}
+nav .top-bar .logo{
+	width: 20%;
+	height: 70px;
+	float: left;
+	padding-top: 15px;
+	text-align: center;
+}
+nav .top-bar .logo img{
+	height: 70px;
+}
+nav .top-bar .account{
+	width: 40%;
+	height: 70px;
+	float: left;
+}
+.account ul{
+	list-style: none;
+}
+.account ul li{
+	text-align: right;
+	float: right;
+	margin-right: 14px;
+	line-height: 70px;
+}
+.account ul li a{
+	text-decoration: none;
+	font-size: 11px;
+	color: white;
+}
+.giohang{
+	color: white;
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+.nguoidung{
+	color: white;
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+.timkiem{
+	color: white;
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+
+.header-main ul{
+	list-style: none;
+	margin-left: 300px;
+}
+.header-main ul li{
+	float: left;
+	padding: 50px;
+}
+.header-main ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+.header-main ul li a:hover{
+	color: aquamarine;
+}
+/*header*/
+.section{
+	width: 100%;
+	height: 100vh;
+}
+.section1{
+	background: black;
+	overflow: hidden;
+}
+#myvideo{
+	width: 100%; 
+}
+video{
+	width: 100%;
+}
+
+.section2{
+	width: 100%;
+	height: 1000px;
+	background: black;
+}
+.tieude{
+	width: 100%;
+	height: 40vh;
+	background: black;
+
+}
+.tieude h1{
+	font-size: 50px;
+	padding: 100px;
+	color: white;
+	text-align: center;
+}
+.hinhanh{
+	width: 50%;
+	height: 50vh;
+	background: black;
+	float: left;
+	position: relative;
+}
+.tee1{
+	width: 60%;
+	height: 600px;
+	background: url(../Image/IMG_9722.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	transition: 0.5s;
+}
+.tee1:hover .info1{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.info{
+	position: absolute;
+	bottom: -290px;
+	background: rgba(0,0,0,0.39);
+	width: 60%;
+	height: 150px;
+	line-height: 50px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.tee1 h1, .tee1 p{
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+.hinhanh2{
+	width: 50%;
+	height: 50vh;
+	background: black;
+	float: left;
+	position: relative;
+}
+.tee2{
+	width: 60%;
+	height: 600px;
+	background: url(../Image/IMG_9732-2.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+}
+.tee2 h1, .tee2 p{
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+.tee2:hover .info2{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.section3{
+	background: black;
+	width: 100%;
+	height: 1600px;
+}
+.tieude2{
+	font-size: 30px;
+	padding: 100px;
+	color: white;
+	background: black;
+	text-align: center;
+}
+
+.sanpham{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	width: 40%;
+	height: 500px;
+	margin: 20px;
+}
+.sp1{
+	background: black;
+}
+.box1{
+	background: url(../Image/ao1.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.box1:hover{
+	transform: scale(1.1);
+}
+.box2{
+	background: url(../Image/ao2.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.box2:hover{
+	transform: scale(1.1);
+}
+.box3{
+	background: url(../Image/ao3.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.box3:hover{
+	transform: scale(1.1);
+}
+
+
+.sp2{
+	background: black;
+}
+.box4{
+	background: url(../Image/ao4.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.box4:hover{
+	transform: scale(1.1);
+}
+.box5{
+	background: url(../Image/IMG_9722.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.box5:hover{
+	transform: scale(1.1);
+}
+.box6{
+	background: url(../Image/IMG_9732-2.jpg);
+	background-size: cover;
+	background-position: center;
+	transition: 0.5s;
+}
+.box6:hover{
+	transform: scale(1.1);
+}
+
+.section4{
+	background: black;
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+}
+.section4 h1{
+	color: white;
+	text-align: center;
+	animation: slogan 15s infinite linear;
+}
+@keyframes slogan{
+	0{transform: translateX()}
+	20%{transform: translateX(500px)}
+	40%{transform: translateX(300px)}
+	60%{transform: translateX(-500px)}
+	80%{transform: translateX(-300px)}
+	90%{transform: translateX(500px)}
+	100%{transform: translateX(0px)}
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height: 200px;
+	background:  white;
+}
+.connect{
+	width: 100%;
+	height: 50px;
+	background: white;
+	padding: 50px;
+}
+.tieudeft h1{
+	text-align: center;
+	color: black;
+	font-style: italic;
+}
+
+.socialicon ul{
+	list-style: none;
+}
+.socialicon ul li{
+	float: left;
+	margin: 40px 0px 0px 270px;
+}
+.socialicon ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.fbicon{
+	color: black;
+	font-size: 1.5em;
+	margin-right: 10px;
+}
+.instaicon{
+	color: black;
+	font-size: 1.5em;
+	margin-right: 10px;
+}
+.ytbicon{
+	color: black;
+	font-size: 1.5em;
+	margin-right: 10px;
+}
+.socialicon ul li a:hover{
+	color: aquamarine;
+}
